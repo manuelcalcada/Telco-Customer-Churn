@@ -1,5 +1,7 @@
 # Telco Customer Churn
 
+![image](https://user-images.githubusercontent.com/42875146/122658938-f1d43980-d148-11eb-857a-25ae5b448e3c.png)
+
 ## Objective
 To predict the behavior of customers who will be churn in the next month in order to retain those customers by analyze all relevant customer data and develop focused customer retention programs.
 
@@ -129,116 +131,83 @@ The methodology used in the analysis of this case will be the CRISP-DM, through 
 
 ## Exploratory Data Analysis main results
 
-<table>
-	<thead>
-        <tr>
-			<th colspan = "4" style="text-align:center;">Hypotheses summary</th>
-		</tr>
-		<tr>
-			<th>Group</th>
-			<th>#</th>
-			<th>Hypothesis</th>
-            <th>Result</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr style="background-color:#99a9cc;">
-            <td rowspan="9" style="background-color:#99a9cc;"><strong>Services <br> informations</strong></td>
-			<td><strong>H1</strong></td>
-			<td style="background-color:#99a9cc;">Customers with phone services are less likely to churn</td>
-            <td style="background-color:#32a852;">Accepted</td> 
-		</tr>
-		<tr style="background-color:#99a9cc;">
-            <td><strong>H2</strong></td>
-			<td>Customers with fewer phone lines are more likely to churn</td>
-            <td style="background-color:#eb4034;">Rejected</td> 
-		</tr>
-		<tr style="background-color:#99a9cc;">
-            <td><strong>H3</strong></td>
-			<td>Customers with internet services are more likely to churn</td>
-            <td style="background-color:#32a852;">Accepted</td> 
-		</tr>
-		<tr style="background-color:#99a9cc;">
-            <td><strong>H4</strong></td>
-			<td>Customers with online security service are more likely to churn</td>
-            <td style="background-color:#eb4034;">Rejected</td> 
-		</tr>
-		<tr style="background-color:#99a9cc;">
-            <td><strong>H5</strong></td>
-			<td>Customers with online backup service are more likely to churn</td>
-            <td style="background-color:#eb4034;">Rejected</td> 
-		</tr>
-		<tr style="background-color:#99a9cc;">
-            <td><strong>H6</strong></td>
-			<td>Customers with device protection service are more likely to churn</td>
-            <td style="background-color:#eb4034;">Rejected</td> 
-		</tr>
-		<tr style="background-color:#99a9cc;">
-            <td><strong>H7</strong></td>
-			<td>Customers with tech support service are more likely to churn</td>
-            <td style="background-color:#eb4034;">Rejected</td> 
-		</tr>
-		<tr style="background-color:#99a9cc;">
-            <td><strong>H8</strong></td>
-			<td>Customers with TV streaming service are more likely to churn</td>
-            <td style="background-color:#a8a7a7;">-</td> 
-		</tr>
-		<tr style="background-color:#99a9cc;">
-            <td><strong>H9</strong></td>
-			<td>Customers with movie streaming service are more likely to churn</td>
-            <td style="background-color:#a8a7a7;">-</td> 
-		</tr>
-		<tr style="background-color:#a3b1cf;">
-            <td rowspan="6"><strong>Customer <br> informations</strong></td>
-            <td><strong>H10</strong></td>
-			<td>Customers with a longer relationship with the company are less likely to churn</td>
-            <td style="background-color:#32a852;">Accepted</td> 
-		</tr>
-		<tr style="background-color:#a3b1cf;">
-            <td><strong>H11</strong></td>
-			<td>Customers monthly contract are more likely to churn</td>
-            <td style="background-color:#32a852;">Accepted</td> 
-		</tr>
-		<tr style="background-color:#a3b1cf;">
-            <td><strong>H12</strong></td>
-			<td>Customers with paperless billing are more likely to churn</td>
-            <td style="background-color:#32a852;">Accepted</td> 
-		</tr>
-		<tr style="background-color:#a3b1cf;">
-            <td><strong>H13</strong></td>
-			<td>Customers with automatic payment methods are less likely to churn</td>
-            <td style="background-color:#32a852;">Accepted</td> 
-		</tr>
-		<tr style="background-color:#a3b1cf;">
-            <td><strong>H14</strong></td>
-			<td>Customers with less monthly expenses are less likely to churn</td>
-            <td style="background-color:#a8a7a7;">-</td> 
-		</tr>
-		<tr style="background-color:#a3b1cf;">
-            <td><strong>H15</strong></td>
-			<td>Customers with less total expenses are less likely to churn</td>
-            <td style="background-color:#a8a7a7;">-</td> 
-		</tr>
-		<tr style="background-color:#aeb9d1;">
-			<td rowspan="4"><strong>Sociodemographic <br> informations</strong></td>
-            <td><strong>H16</strong></td>
-			<td>Female customers are less likely to churn</td>
-            <td style="background-color:#a8a7a7;">-</td> 
-		</tr>
-		<tr style="background-color:#aeb9d1;">
-            <td><strong>H17</strong></td>
-			<td>Senior citizen customers are less likely to churn</td>
-            <td style="background-color:#eb4034;">Rejected</td>
-		</tr>
-		<tr style="background-color:#aeb9d1;">
-            <td><strong>H18</strong></td>
-			<td>Customers with partners are more likely to churn</td>
-            <td style="background-color:#eb4034;">Rejected</td>
-		</tr>
-		<tr style="background-color:#aeb9d1;">
-            <td><strong>H19</strong></td>
-			<td>Customers with dependents are more likely to churn</td>
-            <td style="background-color:#eb4034;">Rejected</td>
-		</tr>
-	</tbody>
-</table>
+![image](https://user-images.githubusercontent.com/42875146/122658949-0dd7db00-d149-11eb-9d1d-ae2475d56f44.png)
+
+![image](https://user-images.githubusercontent.com/42875146/122658962-2a741300-d149-11eb-94e9-c9cdbd11bebf.png)
+
+![image](https://user-images.githubusercontent.com/42875146/122658966-3364e480-d149-11eb-867c-a87f060839e6.png)
+
+### Insights from bivariate analysis
+
+- Customers without phone service seem to have a slightly greater propensity to churn than others
+- Customers with multiple phone lines seem to have a slightly greater propensity to churn than others
+- Customers with fiber optic internet service seem to have a greater propensity to churn than DSL customers. Also, customers with internet services seem to have a greater propensity to churn than others
+- Customers without online security, online backup, device protection, and tech support services seem to have a slightly greater propensity to churn than others
+- For TV and movie streamming, it is not possible to verify significant difference between the two groups
+- Customers with less tenure seem to have a greater propensity to churn than others
+- There are no significant differences between the two groups in the charges variables
+- Month-to-month customers seem to have a greater propensity to churn than others
+- Paperless billing customers seem to have a greater propensity to churn than others
+- Customers with eletronic check payment method seem to have a greater propensity to churn than others
+- Customers with automatic payment method seem to have less propensity to churn than others
+- There are no significant differences between the two groups in the gender variable
+- Senior citizens seem to have a greater propensity to churn than others
+- Customers without partner seem to have a greater propensity to churn than others
+- Customers without dependents seem to have a greater propensity to churn than others
+
+## Churn propensity model
+
+The following models was used:
+
+1. Logistic Regression
+1. K-Nearest Neighbors
+1. Decision Tree
+1. Gaussian Naive-Bayes
+1. Suport Vector Machine
+1. Gradient Boosting
+1. Extra Trees
+1. Ada Boost
+1. Stochastic gradient descent
+1. Random Forest
+1. XGBoost
+1. Multi Layer Perceptron Neural Network
+
+The model training and evaluate followed the steps below:
+
+1. **Scenery 1.1**: Training all the models with the default hyperparameters in the original dataset
+1. **Scenery 1.2**: Training all the models with the default hyperparameters in the dataset with tenure as categorical
+1. **Scenery 1.3**: Training all the models with the default hyperparameters in the original dataset after PCA transformation
+1. **Scenery 1.4**: Training all the models with the default hyperparameters in the original dataset after SMOTE balancing
+1. **Scenery 1.5**: Training all the models with the default hyperparameters in the original dataset after undersampling balancing
+1. **Scenery 1.6**: Training all the models with the default hyperparameters in the original dataset after feature selection
+1. **Scenery 2.1**: Training all the models with the default hyperparameters using the best three founded scenarios
+1. Hyperparameter optimization of the best models found in the best scenario
+1. Creation of voting classifiers with these best models
+1. Definition of the chosen model
+
+The models evaluation focus mainly in:
+1. F1-Score (test partition)
+1. Precision (test partition)
+1. Cross validation accuracy (in train partition)
+1. Stability (in cross validation train and the whole sample train)
+1. Accuracy (test partition)
+
+### Best model and scenario results
+
+#### Confusion matrix
+
+![image](https://user-images.githubusercontent.com/42875146/122659039-d7e72680-d149-11eb-9d4b-c1a3d49871b8.png)
+
+#### Feature importance
+
+![image](https://user-images.githubusercontent.com/42875146/122659047-e7ff0600-d149-11eb-8cd9-e4ddf9c567c6.png)
+
+So, for this model, the most important feature was the tenure. The higher the tenure, the lower the churn propensity. This is inline with the EDA insights and the hypothesis.
+
+#### Decile analysis
+
+![image](https://user-images.githubusercontent.com/42875146/122659082-36aca000-d14a-11eb-8f77-f1959c3122a1.png)
+
+According to the lift, the first two deciles are highly important to be encouraged by a marketing campaign in order to stay in the company and not go into churn. The third and fourth deciles also have a higher churn average than the total base average, so they should also be reached by a marketing campaign.
+
+
