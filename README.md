@@ -210,4 +210,98 @@ So, for this model, the most important feature was the tenure. The higher the te
 
 According to the lift, the first two deciles are highly important to be encouraged by a marketing campaign in order to stay in the company and not go into churn. The third and fourth deciles also have a higher churn average than the total base average, so they should also be reached by a marketing campaign.
 
+## Charge regression model
 
+The following models was used:
+
+1. Linear regression (OLS)
+1. Logistic Regression
+1. K-Nearest Neighbors
+1. Decision Tree
+1. Gaussian Naive-Bayes
+1. Suport Vector Machine
+1. Gradient Boosting
+1. Extra Trees
+1. Ada Boost
+1. Stochastic gradient descent
+1. Random Forest
+1. XGBoost
+1. Multi Layer Perceptron Neural Network
+
+The model training and evaluate followed the steps below:
+
+1. Training all the models with the default hyperparameters in the original dataset
+1. Hyperparameter optimization of the best models found (if needed)
+1. Creation of voting regressors with these best models (if needed)
+1. Definition of the chosen model
+
+The models evaluation focus mainly in:
+1. R2-score (test partition)
+1. MAE (test partition)
+1. MSE (test partition)
+
+### Best model and scenario results
+
+The best model was a linear regression.
+
+In this experiment, a regression model was created to predict the monthly charge paid by the customer. This model is useful to be used with the churn propensity model, in the final table of propensity, where it can be compared if the value of the customer prone to churn is outdated (greater) than that of customers who are not prone.
+
+In this way, we were also able to understand the impact on cost that each service purchased has, as well as their combination in bundle.
+
+## Customer clustering model
+
+Using an elbow method, the KN clustering founds 4 clusters to the customers.
+
+![image](https://user-images.githubusercontent.com/42875146/122659571-d15bad80-d14f-11eb-9cea-49aeca7e8bee.png)
+
+**From these analysis**:
+
+ Cluster 0:
+  - The customers are younger than clusters 1 and 3
+  - Has more phone services than internet services
+  - Has usually one phone line
+  - Customers with approximately 3 years of tenure
+  - Has a low term contract (monthly)
+  - Uses an electronic check payment method
+  - Uses as much fiber optic internet as DSL internet
+  - Spends an average of 62 dollars per month
+
+ Cluster 1:
+  - Higher percentage of senior citizens than other clusters
+  - Higher percentage of married people with dependents
+  - Higher tenure (more than 5 years)
+  - Has all the internet and phone services
+  - Has multiple phone lines 
+  - Uses a fiber optic internet
+  - Higher monthly charges than others clusters
+  - Spends an average of 100 dollars per month
+  - Has paperless billing
+  - High use of TV and movie streaming
+  - Has a long term contract (2 years)
+  - Uses an automatic payment method
+  - Less propensity to churn
+
+ Cluster 2:
+  - Younger customers
+  - Has more phone services than internet services
+  - Has one phone line
+  - Customers with less than 1 year of tenure
+  - Has a low term contract (monthly)
+  - Uses an electronic check and mailed check payment method
+  - Uses as much fiber optic internet as DSL internet
+  - Spends an average of 48 dollars per month
+  - High propensity to churn
+
+ Cluster 3:
+  - Younger customers
+  - Has more internet services than phone services
+  - Has more than one phone line
+  - Customers with 4 years of tenure
+  - Has a mid term contract (1 year)
+  - Uses an electronic check payment method
+  - Uses a fiber optic internet
+  - Spends an average of 82 dollars per month
+  
+  
+  --- 
+  Visit my [LinkedIn](https://www.linkedin.com/in/manuelcalcada/ "Stay in touch!")!
