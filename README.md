@@ -196,11 +196,11 @@ The models evaluation focus mainly in:
 
 #### Confusion matrix
 
-![image](https://user-images.githubusercontent.com/42875146/122659039-d7e72680-d149-11eb-9d4b-c1a3d49871b8.png)
+![image](https://user-images.githubusercontent.com/42875146/122677686-bcb3ff80-d1b9-11eb-9863-6bbdf41d34c0.png)
 
 #### Feature importance
 
-![image](https://user-images.githubusercontent.com/42875146/122659047-e7ff0600-d149-11eb-8cd9-e4ddf9c567c6.png)
+![image](https://user-images.githubusercontent.com/42875146/122677712-dfdeaf00-d1b9-11eb-927a-0e46ccf4a03f.png)
 
 So, for this model, the most important feature was the tenure. The higher the tenure, the lower the churn propensity. This is inline with the EDA insights and the hypothesis.
 
