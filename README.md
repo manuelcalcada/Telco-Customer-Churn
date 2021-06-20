@@ -293,7 +293,6 @@ Using an elbow method, the KN clustering founds 4 clusters to the customers.
   - High propensity to churn
 
  Cluster 3:
-  - Younger customers
   - Has more internet services than phone services
   - Has more than one phone line
   - Customers with 4 years of tenure
