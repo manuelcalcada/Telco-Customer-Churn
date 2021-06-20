@@ -131,21 +131,21 @@ The methodology used in the analysis of this case will be the CRISP-DM, through 
 
 ## Exploratory Data Analysis main results
 
-![image](https://user-images.githubusercontent.com/42875146/122658949-0dd7db00-d149-11eb-9d1d-ae2475d56f44.png)
+![image](https://user-images.githubusercontent.com/42875146/122677343-59759d80-d1b8-11eb-99af-a40f2dc16385.png)
 
-![image](https://user-images.githubusercontent.com/42875146/122658962-2a741300-d149-11eb-94e9-c9cdbd11bebf.png)
+![image](https://user-images.githubusercontent.com/42875146/122677347-5d092480-d1b8-11eb-8495-cdda778690ca.png)
 
-![image](https://user-images.githubusercontent.com/42875146/122658966-3364e480-d149-11eb-867c-a87f060839e6.png)
+![image](https://user-images.githubusercontent.com/42875146/122677349-60041500-d1b8-11eb-849f-79a314c7427f.png)
 
 ### Insights from bivariate analysis
 
-- Customers without phone service seem to have a slightly greater propensity to churn than others
+- Customers with phone service seem to have a slightly greater propensity to churn than others
 - Customers with multiple phone lines seem to have a slightly greater propensity to churn than others
 - Customers with fiber optic internet service seem to have a greater propensity to churn than DSL customers. Also, customers with internet services seem to have a greater propensity to churn than others
 - Customers without online security, online backup, device protection, and tech support services seem to have a slightly greater propensity to churn than others
-- For TV and movie streamming, it is not possible to verify significant difference between the two groups
+- Customers without TV streaming and movies streaming seem to have a greater propensity to churn than other customers
 - Customers with less tenure seem to have a greater propensity to churn than others
-- There are no significant differences between the two groups in the charges variables
+- Customers with lower monthly charges seem to have a lower propensity to churn than others
 - Month-to-month customers seem to have a greater propensity to churn than others
 - Paperless billing customers seem to have a greater propensity to churn than others
 - Customers with eletronic check payment method seem to have a greater propensity to churn than others
@@ -196,11 +196,11 @@ The models evaluation focus mainly in:
 
 #### Confusion matrix
 
-![image](https://user-images.githubusercontent.com/42875146/122659039-d7e72680-d149-11eb-9d4b-c1a3d49871b8.png)
+![image](https://user-images.githubusercontent.com/42875146/122677686-bcb3ff80-d1b9-11eb-9863-6bbdf41d34c0.png)
 
 #### Feature importance
 
-![image](https://user-images.githubusercontent.com/42875146/122659047-e7ff0600-d149-11eb-8cd9-e4ddf9c567c6.png)
+![image](https://user-images.githubusercontent.com/42875146/122677712-dfdeaf00-d1b9-11eb-927a-0e46ccf4a03f.png)
 
 So, for this model, the most important feature was the tenure. The higher the tenure, the lower the churn propensity. This is inline with the EDA insights and the hypothesis.
 
